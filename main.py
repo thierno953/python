@@ -5,7 +5,7 @@ print(name)
 print(full_name)
 print(PI)
 
-# print('-----------------------------------------')
+print('-----------------------------------------')
 
 brand = "Thierno"
 age = 20
@@ -19,7 +19,7 @@ print(type(numbers))
 print(type(pi))
 print(type(isAdult))
 
-# print('-----------------------------------------')
+print('-----------------------------------------')
 
 # DYNAMICALLY TYPE
 
@@ -28,7 +28,7 @@ iaAdult: bool = False
 def hello() -> int:
     return 1
 
-# print('-----------------------------------------')
+print('-----------------------------------------')
 
 # STRINGS
 brand = 'Thierno'
@@ -39,7 +39,7 @@ print(len(brand))
 print(brand != "thierno")
 print("code" not in brand)
 
-# print('-----------------------------------------')
+print('-----------------------------------------')
 
 # MULTILINE AND FORMATTING STRINGS
 name = "Jamila"
@@ -50,7 +50,7 @@ It was nice talking to you
 """
 print(email.format(name))
 
-# print('-----------------------------------------')
+print('-----------------------------------------')
 
 # INDENTATION
 import keyword
@@ -60,7 +60,7 @@ def my_function():
     
 print(keyword.kwlist)
     
-# print('-----------------------------------------')
+print('-----------------------------------------')
 
 # ARITHMETIC OPERATORS
 print(1 + 2)
@@ -75,14 +75,14 @@ print((10 > 5) and (1 < 3) and "A" == "A")
 print((10 < 5) or (1 > 3) or "A" == "c")
 print(not("James" == "Maria"))
 
-# print('-----------------------------------------')
+print('-----------------------------------------')
 
 # ASIGNMENT OPERATORS
 number = 4
 number **=2
 print(number)
 
-# print('-----------------------------------------')
+print('-----------------------------------------')
 
 # IF STATEMENTS
 
@@ -95,6 +95,32 @@ elif number == 0:
 else:
     print(f"{number} is negative")
 
-# print('-----------------------------------------')
+print('-----------------------------------------')
 
-# QUICK WORD ON STATEMENTS
+# QUICK WORD ON IF STATEMENTS
+
+number = 10
+
+if number > 0:
+    print(f"{number} is positive")
+elif number == 0:
+    print(number)
+elif number == 0:
+    print(number)
+elif number == 0:
+    print(number)
+else:
+    print(f"{number} is negative")
+    
+print('-----------------------------------------')
+
+# TERNARY IF STATEMENTS
+
+number = -1
+message = "positive" if number > 0 else "0 or negative"
+print(message)
+
+print('-----------------------------------------')
+
+# LISTS
+
