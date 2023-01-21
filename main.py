@@ -163,4 +163,19 @@ print(f"Difference = {difference}")
 
 print('-----------------------------------------')
 
+# DICTIONARIES
 
+person = {
+    "name": "Jamal",
+    "age": 20,
+    "address": "BRUSSELS"
+}
+
+print(person["name"])
+print(person["age"])
+print(person["address"])
+print(person.keys())
+print(person.values())
+# person.clear()
+print(person.get("age"))
+print(person)
