@@ -1,12 +1,12 @@
 # PARAMETERS AND ARGUMENTS
 
-# def greet(name, age=-1):
-#     print(f"Hello {name} how are you?")
-#     if age >= 0:
-#         print(f"I know your age = {age}")
+def greet(name, age=-1):
+    print(f"Hello {name} how are you?")
+    if age >= 0:
+        print(f"I know your age = {age}")
 
-# greet("Jamila")
-# greet("John", 20)
+greet("Jamila")
+greet("John", 20)
 
 # print('-----------------------------')
 
@@ -36,6 +36,8 @@ print(convertGender("hello"))
 
 # BUILD IN FUNCTIONS AND IMPORT STATEMENT
 
+from math import isqrt
+print(isqrt(25))
 
 
 
