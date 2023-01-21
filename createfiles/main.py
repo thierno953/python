@@ -7,7 +7,7 @@ file = open("./data.csv", "r+")
 file.write("id, name, email\n")
 file.write("1, Jamila, jamila@gmail.com\n")
 file.write("2, John, john@gmail.com\n")
-file.write("3, Pierre, pierre@gmail.com\n")
+
 file.close()
 
 print('-----------------------------------')
