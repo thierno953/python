@@ -39,7 +39,7 @@ print('-------------------------------------')
 
 number = 0
 
-# 3
+# 1
 number = 0
 while number < 10:
     print(number)
