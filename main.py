@@ -122,5 +122,45 @@ print(message)
 
 print('-----------------------------------------')
 
-# LISTS
+# LISTS & METHODS
+
+numbers = [1, 2, 3, 4, -1, -20]
+
+numbers.sort()
+numbers.reverse()
+numbers.append(1000)
+print(len(numbers))
+numbers.clear()
+print(-20 in numbers)
+
+# DELETING ITEMS FROM LIST
+
+numbers.remove(-1)
+numbers.pop()
+numbers.pop()
+del numbers[4]
+print(numbers)
+
+# SETS
+
+numbersList = [1, 1]
+numbersSet = {1, 1}
+lettersSet = {"A", "A", "B", "C", "C"}
+print(numbersList)
+print(numbersSet)
+print(lettersSet)
+
+# SET UNION | INTERSECTION & DIFFERENCE
+
+lettersA = {"A", "B", "C", "D"}
+lettersB = {"E", "F"}
+union = lettersA | lettersB
+intersection = lettersA & lettersB
+difference = lettersA - lettersB
+print(f"Union {union}")
+print(f"Intersection = {intersection}")
+print(f"Difference = {difference}")
+
+print('-----------------------------------------')
+
 
