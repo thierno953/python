@@ -16,6 +16,4 @@ samsung = Phone("Samsung S20", 1300)
 print(iphone)
 print(iphone)
 
-print('---------------------------------')
 
-# PRINTING OBJECTS
