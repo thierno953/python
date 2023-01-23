@@ -28,7 +28,7 @@ def convertGender(gender="unknown"):
     if gender.upper() == "M":
         return "Male"
     elif gender.upper() == "F":
-        return "F"
+        return "Female"
     else:
         return f"Gender {gender} is unknown"
 
