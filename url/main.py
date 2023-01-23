@@ -26,7 +26,7 @@ for j in jsonData:
     joke = Joke(setup, punchline)
     jokes.append(joke)
 
-print(f"Got {len(jokes)} jokes ")
+print(f"Got {len(jokes)} jokes")
 
 for joke in jokes:
     print(joke)
