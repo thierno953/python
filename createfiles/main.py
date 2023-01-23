@@ -2,7 +2,6 @@
 
 # file = open("./data.csv", "w")
 # file = open("./data.csv", "a")
-import os.path
 file = open("./data.csv", "r+")
 
 file.write("id, name, email\n")
@@ -24,13 +23,16 @@ file.close()
 
 print('-----------------------------------')
 
+# BETTER WAY TO WORK WITH FILES
+
 with open("./data.csv", "r") as file:
     print(file.read())
 
 print('-----------------------------------')
 
+import os.path
 
-filename = "./data.csv"
+filename = "./dataa.csv"
 
 if os.path.isfile(filename):
     with open(filename, "r") as file:
