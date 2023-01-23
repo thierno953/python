@@ -41,8 +41,6 @@ print('-------------------------------------')
 
 number = 0
 
-# Method 1
-number = 0
 while number < 10:
     print(number)
     number += 1
@@ -50,7 +48,8 @@ else:
     print("while loop ended")
 
 
-# Method 2
+# CONTINUE
+
 while number < 10:
     number += 1
     if number < 5:
@@ -58,7 +57,7 @@ while number < 10:
     print(number)
 
 
-# Method 3
+# BREAK
 for n in [1, 2, 3, 4, 5, 6, 7]:
     if n == 5:
         break
