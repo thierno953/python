@@ -58,6 +58,7 @@ while number < 10:
 
 
 # BREAK
+
 for n in [1, 2, 3, 4, 5, 6, 7]:
     if n == 5:
         break
